@@ -10,4 +10,4 @@ Sample Test cases available:
 
 Below Screenshots shows the live reporting feature of Serenity BDD.
 
-![Alt text]("src/test/resources/sampleReportScreenshots/Overall Test Results.PNG"?raw=true "Overall Test Results")
+![Screenshot](src/test/resources/sampleReportScreenshots/Overall Test Results.PNG)
