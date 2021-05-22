@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Create payment API basic tests","CreatePaymentAPI - To verify API Response Details","SUCCESS","2021-05-22T15:48:29.077+05:30[Asia/Calcutta]","0.0","8.88"
+"Create payment API basic tests","CreatePaymentAPI - To verify API Response Status Code and Structure","SUCCESS","2021-05-22T15:48:29.63+05:30[Asia/Calcutta]","0.0","1.17"

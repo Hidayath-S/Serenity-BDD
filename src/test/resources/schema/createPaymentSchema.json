@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://example.com/example.json",
+  "type": "object",
+  "required": [
+    "PaymentResponse"
+  ],
+  "properties": {
+    "PaymentResponse": {
+      "id": "#/properties/PaymentResponse",
+      "type": "object",
+      "required": [
+        "amount",
+        "paymentId",
+        "toAcctNo",
+        "paymentCreatedDate",
+        "customerDetails",
+        "fromAcctNo",
+        "paymentStatus",
+        "remarks"
+      ],
+      "properties": {
+        "amount": {
+          "id": "#/properties/PaymentResponse/properties/amount",
+          "type": "number"
+        },
+        "paymentId": {
+          "id": "#/properties/PaymentResponse/properties/paymentId",
+          "type": "integer"
+        },
+        "toAcctNo": {
+          "id": "#/properties/PaymentResponse/properties/toAcctNo",
+          "type": "string"
+        },
+        "paymentCreatedDate": {
+          "id": "#/properties/PaymentResponse/properties/paymentCreatedDate",
+          "type": "string"
+        },
+        "customerDetails": {
+          "id": "#/properties/PaymentResponse/properties/customerDetails",
+          "type": "object",
+          "required": [
+            "ecn",
+            "phoneNumber",
+            "firstName",
+            "custId",
+            "lastName",
+            "ssn"
+          ],
+          "properties": {
+            "ecn": {
+              "id": "#/properties/PaymentResponse/properties/customerDetails/properties/ecn",
+              "type": "integer"
+            },
+            "phoneNumber": {
+              "id": "#/properties/PaymentResponse/properties/customerDetails/properties/phoneNumber",
+              "type": "integer"
+            },
+            "firstName": {
+              "id": "#/properties/PaymentResponse/properties/customerDetails/properties/firstName",
+              "type": "string"
+            },
+            "custId": {
+              "id": "#/properties/PaymentResponse/properties/customerDetails/properties/custId",
+              "type": "string"
+            },
+            "lastName": {
+              "id": "#/properties/PaymentResponse/properties/customerDetails/properties/lastName",
+              "type": "string"
+            },
+            "ssn": {
+              "id": "#/properties/PaymentResponse/properties/customerDetails/properties/ssn",
+              "type": "integer"
+            }
+          }
+        },
+        "fromAcctNo": {
+          "id": "#/properties/PaymentResponse/properties/fromAcctNo",
+          "type": "string"
+        },
+        "paymentStatus": {
+          "id": "#/properties/PaymentResponse/properties/paymentStatus",
+          "type": "string"
+        },
+        "remarks": {
+          "id": "#/properties/PaymentResponse/properties/remarks",
+          "type": "string"
+        }
+      }
+    }
+  }
+}

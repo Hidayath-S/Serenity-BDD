@@ -1,0 +1,84 @@
+{
+  "report": {
+    "title": "Serenity Summary Report",
+    "tagCategoryTitle": "Category",
+    "version": "",
+    "date": "2021-05-22T15:48:29.077"
+  },
+  "results": {
+    "counts": {
+      "total": 2,
+      "success": 2,
+      "pending": 0,
+      "ignored": 0,
+      "skipped": 0,
+      "failure": 0,
+      "error": 0,
+      "compromised": 0
+    },
+    "percentages": {
+      "success": 100,
+      "pending": 0,
+      "ignored": 0,
+      "skipped": 0,
+      "failure": 0,
+      "error": 0,
+      "compromised": 0
+    },
+    "totalTestDuration": 10049,
+    "totalClockDuration": 553,
+    "minTestDuration": 1166,
+    "maxTestDuration": 8883,
+    "averageTestDuration": 5024
+  },
+  "resultsByFeature": [
+    {
+      "featureName": "Create payment API basic tests",
+      "scenarios": [
+        {
+          "title": "CreatePaymentAPI - To verify API Response Details",
+          "result": "success",
+          "outcomes": []
+        },
+        {
+          "title": "CreatePaymentAPI - To verify API Response Status Code and Structure",
+          "result": "success",
+          "outcomes": []
+        }
+      ]
+    }
+  ],
+  "frequentFailures": [
+  ],
+  "unstableFeatures": [
+  ],
+  "coverage": [
+  ],
+  "tags": [
+    {
+      "tagType": "API",
+      "tagResults": [
+        {
+          "tagName": "CreatePayment",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "tagType": "Suite",
+      "tagResults": [
+        {
+          "tagName": "Dev",
+          "count": 2
+        },
+        {
+          "tagName": "HealthCheck",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}
+
+
+

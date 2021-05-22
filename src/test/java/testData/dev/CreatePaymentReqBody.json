@@ -1,0 +1,7 @@
+{
+  "custId": "{custId1}",
+  "fromAcctNo": "{fromAcctNo}",
+  "toAcctNo": "{toAcctNo}",
+  "amount": "{amount}",
+  "remarks": "Test transfer"
+}
