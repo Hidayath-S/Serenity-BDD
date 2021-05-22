@@ -9,3 +9,5 @@ Sample Test cases available:
 2. Test case to validate the entire API Response details using Java models (de-serialization)
 
 Below Screenshots shows the live reporting feature of Serenity BDD.
+
+![Alt text]("src/test/resources/sampleReportScreenshots/Overall Test Results.PNG"?raw=true "Overall Test Results")
